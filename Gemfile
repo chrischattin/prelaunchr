@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.1.2' # Keeps Heroku happy.
 gem 'rails', '3.2.11'
 
 # Bundle edge Rails instead:
