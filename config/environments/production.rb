@@ -21,7 +21,7 @@ Prelaunchr::Application.configure do
   config.assets.digest = true
 
   config.assets.precompile += %w( core.css bootstrap.css reset.css )
-  config.assets.precompile += ['active_admin.css', 'active_admin.js', 'print.css']
+  config.assets.precompile += ['active_admin.css', 'active_admin.js', 'active_admin/print.css']
 
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH
